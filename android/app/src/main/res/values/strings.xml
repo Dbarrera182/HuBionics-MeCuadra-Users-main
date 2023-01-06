@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">mecuadra_app</string>
+    <string name="facebook_app_id">988248761840910</string>
+    <string name="fb_login_protocol_scheme">fb988248761840910</string>
+    <string name="facebook_client_token">8e4647e202f9ce53706f7a1413122786</string>
+</resources>
+

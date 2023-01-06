@@ -1,0 +1,72 @@
+name: me_cuadra_users
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.1.1
+  firebase_messaging: ^14.1.2
+  firebase_storage: ^11.0.2
+  firebase_database: ^10.0.4
+  cloud_firestore: ^4.0.2
+  flutter_tindercard: ^0.2.0
+  provider: ^6.0.1
+  story_view: ^0.13.2
+  carousel_slider: ^4.1.1
+  video_player: ^2.4.4
+  youtube_player_flutter: ^8.1.0
+  url_launcher: ^6.1.4
+  google_sign_in: ^5.3.3
+  flutter_facebook_auth: ^4.3.4+2
+  google_fonts: ^3.0.1
+  shared_preferences:
+  cached_network_image:
+  fluttertoast: ^8.0.9
+  flutter_svg: ^1.1.5
+  flutter_staggered_grid_view: ^0.6.2
+  intl: ^0.17.0
+  firebase_auth: ^4.0.1
+  pin_code_fields: ^7.4.0
+  intl_phone_field: ^3.1.0
+  awesome_notifications: ^0.0.6+10
+  smooth_page_indicator: ^1.0.0+2
+  flutter_local_notifications: ^12.0.4
+  file_picker: ^5.2.4
+  #mailer: ^5.3.0
+  mailjet: ^1.0.3+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.11.0"
+
+  flutter_lints: ^1.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/LogoMPlay.png"
+  adaptive_icon_background: "assets/LogoMPlay.png"
+  adaptive_icon_foreground: "assets/LogoMPlay.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/Icons/ZonasComunes/
+    - assets/Icons/Caracteristicas/
+    - assets/Icons/
+    - assets/Intro/
